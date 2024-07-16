@@ -1,0 +1,79 @@
+Documentatie 
+
+Proiect Joc Char for Fun 
+
+De Scheaua Mihai si Panaitescu Sebastian Andrei 
+
+ 
+
+ 
+
+Arhitectura aplicației 
+
+Jocul este creat in game-engine-ul Unity3D, acesta dispunand de un motor grafic performant care suportă redarea în timp 
+real și permite crearea de grafică de înaltă calitate. Limbajul folosit pentru cod este C#, unde alaturi de bibliotecile
+oferite de Unity, sunt folosite pentru a implementa un meniu si o interfata UI.  
+
+Aplicatia este usor accesibila, este offline si se gaseste valabila pe PC. 
+
+ 
+
+Implementarea aplicației 
+
+Lectiile din joc sunt pe baza materiei de clasa a 10-a despre biblioteca cstring. 
+
+Materia este facuta de la 0 si verificata de profesorul de informatica de la scoala 
+ca sa fim siguri ca este optima pentru educatia jucatorului. Pe parcursul nivelelor
+intrebarile progreseaza in dificultate, jucatorul invatand functii si tipuri de probleme 
+noi si complexe. Pentru fiecare versiune noua am avut colegi voluntari care ne-au testat
+jocul cu placere si ne-au dat feedback despre ce ar trebui sa schimbam sau adauga pentru
+o experienta mai placuta. Aplicatia este singleplayer se gaseste pe github pentru persoanele
+interesate si securizata deoarece este offline. Codul este lizibil si usor de inteles, invatat 
+prima data ca un hobby apoi perfectionat cu experienta si perseverenta cu ajutorul internetului, 
+in principal Youtube. Un feature complex care ne-a pus putine dificultati a fost ca jucatorul sa 
+poata sa isi faca propriile intrebari cu ajutorul aplicatiei noastre folosind fisiere .txt pentru 
+ca a fost prima oara cand a trebuit sa lucram cu fisiere in Unity si ca exportarea si importarea 
+fisierelor cu teste au fost dificile de realizat. 
+
+ 
+
+Interfață 
+
+Jocul este in 3D asa ca in principal se foloseste de controale si scopuri intuitive pentru a progresa
+in joc. Interfatele pe care le folosim sunt meniurile pentru a intra sau iesi din joc, setarile,
+si un mesaj care expune jucatorul elementele cu care poate interactiona, precum butoanele de raspuns
+sau sagetile din lectie. Elementele UI pe care le folosim sunt simpliste, usor de parcurs si au un 
+aspect dragut. Materia si intrebarile respectă corectitudinea gramaticală, iar jucatorul poate sa 
+aleaga intre limba romana sau engleza. 
+
+ 
+
+ 
+
+Conținut 
+
+Jucatorul ca sa castige trebuie sa rezolve 4 capitole de probleme grila legate despre sirurile de
+caractere si functia char din C++. Inaintea intrebarilor este o scurta lectie care invata jucatorul
+materia de care are novoie sa rezolve problemele, de exemplu in al doilea capitol sunt explicate 
+functiile strlen, strchr si strcpy, iar in caz ca ramane blocat la o intrebare are libertate sa 
+se intoarca in camera precedenta cu materia. Aceasta aplicatie liniara permite jucatorul sa-si 
+puna cunostintele la incercare si sa invete lucruri noi intr-o metoda inovativa si distractiva.
+Un capitol are in jur de 10 intrebari iar daca player-ul greseste 3 dintre ele,se reia setul de
+intrebari intr-o oridine randomizata, iar la sfarsitul jocului o sa primeasca un scor final.
+Progresul jucatorului se salveaza si nu trebuie sa ia de la capat toate intrebarile.
+Player-ul poate sa isi creeze propriile intrebari despre orice cu ajutorul aplicatiei noastre
+folosind fisiere .txt si ar fi o metoda foarte buna prin care profesori ar putea sa dea quiz-uri
+la elevi . Probleme codate sunt testate si scrise pe Visual Studio, iar continuturile sunt conforme cu programa scolara. 
+
+ 
+
+Originalitate și inovație 
+
+Sirurile de caractere reprezinta unul dintre cele mai dificile capitole din programa scolara.
+Am observat ca notiunile legate de siruri de caractere sunt mai dificil de insusit de catre 
+colegii nostri, desi intrebari legate de sirurile de caractere apar in subiectele examenului 
+de bacalaureat la informatica, dar si in subiectele propuse la admitere de diverse facultati 
+din Romania, asa ca am creat acest joc sa te invete si sa poti repeta cu usurinta functiile 
+elementare folositoare pentru introducerea sau perfectionarea cunostintelor. Acest joc incearca
+sa faca din sirurile de caractere un subiect mai usor abordabil, prezentat sub o forma accesibila,
+mobila si distractiva si speram sa fie un instrument util in desfasurarea orelor de informatica. 
